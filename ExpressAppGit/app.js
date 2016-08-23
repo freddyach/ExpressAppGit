@@ -28,6 +28,7 @@ if ('development' == app.get('env')) {
     app.use(express.errorHandler());
 }
 
+//Comentario de prueba
 app.get('/', routes.index);
 app.get('/about', routes.about);
 app.get('/contact', routes.contact);
